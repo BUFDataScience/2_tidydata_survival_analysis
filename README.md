@@ -1,6 +1,7 @@
 
 ![](http://garrettgman.github.io/images/tidy-1.png)
 
+[Tidy Data visual by GarrettGrolemund](http://garrettgman.github.io/tidying/)
 
 # Meetup 2: Tidy Data and Survival Analysis
 
