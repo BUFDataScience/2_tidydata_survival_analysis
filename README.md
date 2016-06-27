@@ -1,8 +1,11 @@
 # Meetup 2: Tidy Data and Survival Analysis
 
-When: Tues June 28 6-8pm
-Where:  top floor of Electric Tower : (535 Washington Street, 14th Floor). 
-What: Tidy Data and Survival Analysis
+|    |                  |
+|----|------------------|
+|When: |Tues June 28 6-8pm|
+|Where: |top floor of Electric Tower : (535 Washington Street, 14th Floor)|
+|What: |Tidy Data and Survival Analysis|
+
 
 #### Intro-level. 
 
