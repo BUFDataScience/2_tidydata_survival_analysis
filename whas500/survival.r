@@ -1,10 +1,10 @@
 library(dplyr)
 library(ggplot2)
 library(survival)
-library(readxl)
+library(readr)
 
 #setwd("~/Desktop/BUF_DataScience/2_tidydata_survival_analysis/whas500")
-df <- read_excel("whas500.xls")
+df <- read_csv("whas500.csv")
 
 summary(df$lenfol)
 
