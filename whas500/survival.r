@@ -9,8 +9,8 @@ df <- read_csv("whas500.csv")
 summary(df$lenfol)
 
 dead <- df[df$fstat>0,]
-ggplot(dead, aes(lenfol)) +
-  geom_histogram(bins=20)
+hist(dead$lenfol, bins=20)
+
 
 
 time_of_event <- df$lenfol
@@ -23,7 +23,7 @@ my.fit <- survfit(srv ~ 1)
 plot(my.fit, main="Kaplan-Meier estimate with 95% confidence bounds", xlab="time", ylab="survival function")
 
 #stratify Congestive Heart Complications
-srv_w <-Surv(time = time_of_event[df$chf==1],event =event[df$chf==1])
+srv_w <- Surv(time = time_of_event[df$chf==1],event =event[df$chf==1])
 
 srv_wo <-Surv(time = time_of_event[df$chf!=1],event =event[df$chf!=1])
 
