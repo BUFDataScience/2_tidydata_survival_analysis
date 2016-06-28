@@ -9,7 +9,7 @@ df <- read_csv("whas500.csv")
 summary(df$lenfol)
 
 dead <- df[df$fstat>0,]
-hist(dead$lenfol, bins=20)
+hist(dead$lenfol, breaks=20)
 
 
 
